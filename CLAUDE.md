@@ -10,7 +10,16 @@ This is an empty Rust blog project repository that has been initialized but cont
 
 ## Development Setup
 
-Since this appears to be intended as a Rust project based on the name, typical Rust development commands would be:
+### GitHub Codespaces
+
+This project is configured for GitHub Codespaces development with a `.devcontainer` setup that includes:
+- Rust development environment (latest stable)
+- Essential VS Code extensions (rust-analyzer, LLDB debugger, etc.)
+- GitHub CLI and Node.js for additional tooling
+
+### Local Development
+
+For local development, typical Rust development commands would be:
 
 ```bash
 # Initialize a new Rust project (if not already done)
