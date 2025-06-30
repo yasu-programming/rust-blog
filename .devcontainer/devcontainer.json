@@ -27,6 +27,6 @@
       }
     }
   },
-  "postCreateCommand": "rustc --version && cargo --version",
+  "postCreateCommand": "rustc --version && cargo --version && bash .devcontainer/setup-claude.sh",
   "remoteUser": "vscode"
 }

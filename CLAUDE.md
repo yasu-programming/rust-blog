@@ -16,6 +16,23 @@ This project is configured for GitHub Codespaces development with a `.devcontain
 - Rust development environment (latest stable)
 - Essential VS Code extensions (rust-analyzer, LLDB debugger, etc.)
 - GitHub CLI and Node.js for additional tooling
+- **Claude Code CLI** - Automatically installed and configured
+
+#### Using Claude Code in Codespaces
+
+After the Codespace starts, Claude Code will be automatically installed. To use it:
+
+1. Authenticate with your API key:
+   ```bash
+   claude-code auth
+   ```
+
+2. Start using Claude Code:
+   ```bash
+   claude-code
+   ```
+
+The setup script (`.devcontainer/setup-claude.sh`) handles the installation and PATH configuration automatically.
 
 ### Local Development
 
